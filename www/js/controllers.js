@@ -49,4 +49,17 @@ angular.module('treino')
     .controller('TreinoController', function ($scope, dadosFactory, $stateParams) {
 
         var vm = this;
+
+        dadosFactory.consultar().then(function (response) {
+
+            vm.treinos = response.data.treinos;
+
+            for (var i in vm.treinos) {
+                if (vm.treinos[i].id === $stateParams.id) {
+                    vm.treino = vm.treinos[i].exercicios;
+                }
+            }
+
+        })
+
     });

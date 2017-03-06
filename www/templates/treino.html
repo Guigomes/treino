@@ -7,6 +7,25 @@
             </div>
 
 
+            <div class="row header">
+                <div class="col">Maquina</div>
+                <div class="col">Nome</div>
+                <div class="col">Peso</div>
+                <div class="col">Assento</div>
+                <div class="col">Repeticoes</div>
+                <div class="col"></div>
+
+            </div>
+            <div class="row" ng-repeat="exercicio in vm.treino">
+                <div class="col">{{exercicio.numeroMaquina}}</div>
+                <div class="col">{{exercicio.nome}}</div>
+                <div class="col">{{exercicio.peso}}</div>
+                <div class="col">{{exercicio.assento}}</div>
+                <div class="col">{{exercicio.repeticoes}}</div>
+
+                <div class="col"><button class="button" ng-click="ctrl.add($index)">Add</button></div>
+            </div>
+
         </div>
 
     </ion-content>
