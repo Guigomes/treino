@@ -45,10 +45,24 @@ angular.module('treino', ['ionic'])
         views: {
             'tab-dash': {
                 templateUrl: 'templates/tab-dash.html',
-                controller: 'DashCtrl'
+                controller: 'DashCtrl',
+                controllerAs: 'vm'
+            }
+        }
+    }).state('tab.treino', {
+        url: '/treino',
+        params: {
+            "id": null
+        },
+        views: {
+            'tab-dash': {
+                templateUrl: 'templates/treino.html',
+                controller: 'TreinoController',
+                controllerAs: 'vm'
             }
         }
     })
+
 
     .state('tab.chats', {
             url: '/chats',

@@ -1,16 +1,10 @@
 angular.module('treino').factory('dadosFactory', function ($http) {
     var dados;
+
+    var url = ionic.Platform.isAndroid() ? "/android_asset/www/json/dados.json" : "../json/dados.json";
     return {
         consultar: function () {
-            if (ionic.Platform.isAndroid()) {
-                $http.get("/android_asset/www/json/dados.json").then(function (response) {
-                    dados = response.data;
-                });
-            } else {
-                $http.get("../json/dados.json").then(function (response) {
-                    dados = response.data;
-                });
-            }
+            return $http.get(url);
         },
         getDados: function () {
 

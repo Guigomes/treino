@@ -1,9 +1,24 @@
 {
-    "treino": {
-
-        "nome": "Treino A",
-        "data-inicio": "23/02/2017"
+    "treinos": [{
+            "id": 1,
+            "nome": "Treino A",
+            "dataInicio": "23/02/2017",
+            "dataFim": "05/03/2017"
+    },
+        {
+            "id": 2,
+            "nome": "Treino B",
+            "dataInicio": "23/02/2017",
+            "dataFim": "05/03/2017"
+    },
+        {
+            "id": 3,
+            "nome": "Treino C",
+            "dataInicio": "23/02/2017",
+            "dataFim": "05/03/2017"
     }
+
+               ]
 
 
 

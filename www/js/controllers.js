@@ -1,6 +1,26 @@
 angular.module('treino')
 
-.controller('DashCtrl', function ($scope) {})
+.controller('DashCtrl', function ($scope, dadosFactory, $state) {
+
+    var vm = this;
+
+    dadosFactory.consultar().then(function (response) {
+
+        vm.treinos = response.data.treinos;
+        console.log(vm.treinos);
+
+    })
+
+    vm.abrirTreino = abrirTreino;
+
+    function abrirTreino(id) {
+
+        $state.go('tab.treino', {
+            "id": id
+        });
+    }
+
+})
 
 .controller('ChatsCtrl', function ($scope, Chats) {
     // With the new view caching in Ionic, Controllers are only called
@@ -22,7 +42,11 @@ angular.module('treino')
 })
 
 .controller('AccountCtrl', function ($scope) {
-    $scope.settings = {
-        enableFriends: true
-    };
-});
+        $scope.settings = {
+            enableFriends: true
+        };
+    })
+    .controller('TreinoController', function ($scope, dadosFactory, $stateParams) {
+
+        var vm = this;
+    });
