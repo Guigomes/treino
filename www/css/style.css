@@ -1,19 +1,4 @@
-/* Empty. Add your own CSS if you like */
-
-.header .col {
-    background-color: lightgrey;
-}
-
-.col {
-    border: solid 1px grey;
-    border-bottom-style: none;
-    border-right-style: none;
-}
-
-.col:last-child {
-    border-right: solid 1px grey;
-}
-
-.row:last-child .col {
-    border-bottom: solid 1px grey;
+.treino {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
 }

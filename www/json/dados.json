@@ -3,43 +3,141 @@
             "id": 1,
             "nome": "Treino A",
             "dataInicio": "23/02/2017",
-            "dataFim": "05/03/2017",
+            "dataFim": "01/04/2017",
             "exercicios": [{
-                    "numeroMaquina": 26,
-                    "nome": "Triceps",
-                    "peso": 25,
-                    "assento": "4",
-                    "repeticoes": 3
+                    "numeroMaquina": 34,
+                    "nome": "Puxada Polia Barra",
+                    "peso": 33,
+                    "assento": null,
+                    "repeticoes": 15,
+                    "series": 3
             },
                 {
-                    "numeroMaquina": 32,
-                    "nome": "Bíceps",
-                    "peso": 17.5,
-                    "assento": "5",
-                    "repeticoes": 4
+                    "numeroMaquina": 30,
+                    "nome": "Remada Maquina",
+                    "peso": 32.5,
+                    "assento": null,
+                    "repeticoes": 15,
+                    "series": 3
             },
                 {
-                    "numeroMaquina": 20,
-                    "nome": "Abdominal",
-                    "peso": 0,
-                    "assento": "7",
-                    "repeticoes": 2
+                    "numeroMaquina": 53,
+                    "nome": "Bíceps Maquina",
+                    "peso": 20,
+                    "assento": "B6",
+                    "repeticoes": 15,
+                    "series": 3
+            },
+                {
+                    "numeroMaquina": 62,
+                    "nome": "Remada Alta",
+                    "peso": 13.75,
+                    "assento": null,
+                    "repeticoes": 15,
+                    "series": 3
+            },
+                {
+                    "numeroMaquina": 60,
+                    "nome": "Aguachamento Smith",
+                    "peso": 5,
+                    "assento": null,
+                    "repeticoes": 15,
+                    "series": 3
+            }, {
+                    "numeroMaquina": 9,
+                    "nome": "Leg Press 45°",
+                    "peso": 60,
+                    "assento": null,
+                    "repeticoes": 15,
+                    "series": 3
+            },
+                {
+                    "numeroMaquina": null,
+                    "nome": "Afundo",
+                    "peso": 7,
+                    "assento": null,
+                    "repeticoes": 15,
+                    "series": 3
+            }, {
+                    "numeroMaquina": 40,
+                    "nome": "Abdominal Máquina",
+                    "peso": 30,
+                    "assento": "B4",
+                    "repeticoes": 20,
+                    "series": 3
             }
+
                           ]
-    },
-        {
+    }, {
             "id": 2,
             "nome": "Treino B",
             "dataInicio": "23/02/2017",
-            "dataFim": "05/03/2017"
-    },
-        {
-            "id": 3,
-            "nome": "Treino C",
-            "dataInicio": "23/02/2017",
-            "dataFim": "05/03/2017"
-    }
+            "dataFim": "01/04/2017",
+            "exercicios": [{
+                    "numeroMaquina": null,
+                    "nome": "Encolhihento (Anilha)",
+                    "peso": 10,
+                    "assento": null,
+                    "repeticoes": 15,
+                    "series": 3
+            },
+                {
+                    "numeroMaquina": 26,
+                    "nome": "Crucifixo Máquina",
+                    "peso": 32.5,
+                    "assento": null,
+                    "repeticoes": 15,
+                    "series": 3
+            },
+                {
+                    "numeroMaquina": null,
+                    "nome": "Pullover",
+                    "peso": 8,
+                    "assento": null,
+                    "repeticoes": 15,
+                    "series": 3
+            },
+                {
+                    "numeroMaquina": 3,
+                    "nome": "Cadeira Flexora",
+                    "peso": 35,
+                    "assento": "B3",
+                    "repeticoes": 15,
+                    "series": 3
+            },
+                {
+                    "numeroMaquina": 8,
+                    "nome": "Gemeos Sentado",
+                    "peso": 20,
+                    "assento": null,
+                    "repeticoes": 15,
+                    "series": 3
+            }, {
+                    "numeroMaquina": null,
+                    "nome": "Stiff",
+                    "peso": 10,
+                    "assento": null,
+                    "repeticoes": 15,
+                    "series": 3
+            },
+                {
+                    "numeroMaquina": 62,
+                    "nome": "Triceps Polia",
+                    "peso": 11.25,
+                    "assento": null,
+                    "repeticoes": 15,
+                    "series": 3
+            }, {
+                    "numeroMaquina": 44,
+                    "nome": "Hiperextensão Lombar",
+                    "peso": null,
+                    "assento": null,
+                    "repeticoes": 20,
+                    "series": 3
+            }
 
+                          ]
+    }
                ]
 
 

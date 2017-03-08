@@ -7,7 +7,6 @@ angular.module('treino')
     dadosFactory.consultar().then(function (response) {
 
         vm.treinos = response.data.treinos;
-        console.log(vm.treinos);
 
     })
 
@@ -15,7 +14,7 @@ angular.module('treino')
 
     function abrirTreino(id) {
 
-        $state.go('tab.treino', {
+        $state.go('treino', {
             "id": id
         });
     }
